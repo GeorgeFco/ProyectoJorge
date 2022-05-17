@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47ba3629f9.js" crossorigin="anonymous"></script>
+    <script defer src="../index.js"></script>
+</head>
+
+<body class="gridContacto">
+    <div class="encabezado1">
+        <a class="logo" href="../index.html"><img src="/img/logo.png" alt=""></a>
+        <button class="navtoggle">
+            <i class="fa-solid fa-bars"></i>
+        </button> 
+    </div>
+
+    <header class="header">
+        <!-- Menu de opciones/paginas -->
+        <nav class="nav">
+            <ul class="navMenu navVisible">
+                <li class="navItem"><a class="navLink" href="../index.html">Inicio</a></li>
+                <li class="navItem"><a class="navLink" href="sneakers.html">Sneakers</a></li>
+                <li class="navItem"><a class="navLink" href="apparel.html">Apparel</a></li>
+                <li class="navItem"><a class="navLink navLink_activo" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="centrar">
+        <form class="formulario">
+            <legend>Datos de contacto</legend>
+            <input class="entrada1" type="nombre" type="text" placeholder="Nombre">
+            <br><br>
+            <input class="entrada1" type="correo" type="text" placeholder="E-Mail">
+            <br><br>
+            <textarea class="entrada2" name="mensaje" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+            <br><br>
+            <div class="botones">
+                <input type="submit">
+                <input type="reset" value="Borrar">
+            </div>
+            <div class="espacio">
+                <p></p>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footerStyle">
+        <div class="footerCenter">
+            <a class="footerBrand" href="../index.html"><img width="120" src="/img/Logo Sneaker.png" alt=""></a>
+            <div class="footerInfo">
+                © 2022 Sneakers Plex <br>
+                <a class="footerInfo" href="contacto.html">Contacto</a>
+                <a class="footerInfo" href="tallas.html">Cuadro de Tallas</a>
+                <a class="footerInfo" href="terminos.html">Terminos de Servicio</a>
+            </div>
+
+            <ul class="footerNav">
+                <li class="footerItem"><a class="footerLink" href="https://www.facebook.com/snkrsplex-106248137915407"
+                        target="_blank"><i class="fa-brands fa-facebook-f"></i></i></a></li>
+                <li class="footerItem"><a class="footerLink" href="https://www.instagram.com/snkrs.plex/"
+                        target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
